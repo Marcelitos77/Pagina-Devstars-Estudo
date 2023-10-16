@@ -1,0 +1,129 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #c0c0c0; 
+    --botao-azul: #167bf7;
+    --cor-de-fundo: #00030c;
+    --fonte-principal: 'inter';
+}
+
+body {
+    background: #00030c;
+    color: var(--branco-principal);
+    width: 100vw;
+    height: 100vp;
+    background-image: url(./Capa-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    height: 100vp;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container_botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.container_botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+    border-radius: 5px;
+}
+
+.aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.titulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.imagens {
+    margin: 1em 0 2em 0;
+}
+
+.primeira_parte {
+    margin: 50px 10px 10em;
+    text-align: center;
+    align-items: center;
+}
+
+.foto2 {
+    width: 20%;
+}
+
+.container_descricao {
+    display: flex;
+    margin-left: 5em;
+    margin-right: -50em;
+}
+
+.secundario {
+    margin-top: 10em;
+}
+
+.descricao__titulo {
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.descricao__texto {
+    margin-top: 120px;
+    margin-left: -300px;
+    color: var(--cinza-secundario);
+}
+
+.container_descricao2 {
+    display: flex;
+   
+}
+
+.foto3 {
+    width: 55%;
+    margin-left: 35px;
+}
+
+.descricao__titulo2 {
+    margin-top: 90px;
+    margin-right: -500px;
+    margin-left: 10px;
+}
+
+.descricao__texto2 {
+    margin-top: 160px;
+    margin-left: -300px;
+    margin-right: 65px;
+    color: var(--cinza-secundario);
+    
+}
+
+.rodape {
+    text-align: center;
+}
+
+.foto4 {
+    width: 10%;
+}
