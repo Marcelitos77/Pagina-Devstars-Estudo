@@ -1,6 +1,6 @@
 # Página Devstars
 
-Este é uma landpage de estudo na foi desenvolvido em html e css.
+Este é uma landpage de estudo na qual foi desenvolvido em html e css.
 
 link: https://pagina-devstars.vercel.app/
 
